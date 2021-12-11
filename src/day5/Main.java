@@ -5,7 +5,7 @@ import java.util.List;
 public class Main {
 
 	public static void main(String[] args) {
-		List<String> input = day_1.Main.makeArr("C:\\Users\\Luky\\Desktop\\day5.txt");
+		List<String> input = day3.Main.makeArr("C:\\Users\\Luky\\Desktop\\day5.txt");
 		int[][] map = new int[1000][1000];
 		for (String in : input) {
 			String[] check = in.split(" -> ");

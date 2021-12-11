@@ -6,7 +6,7 @@ import java.util.List;
 public class Main {
 
 	public static void main(String[] args) {
-		List<String> input = day_1.Main.makeArr("C:\\Users\\Luky\\Desktop\\day4.txt");
+		List<String> input = day3.Main.makeArr("C:\\Users\\Luky\\Desktop\\day4.txt");
 		String[] an = input.get(0).split(",");
 		String [][][] board = new String[100][5][5];
 		int counter = 0;
